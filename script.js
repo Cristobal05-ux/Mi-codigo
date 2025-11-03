@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
         canvas.height = rect.height;
         
         const goldLayer = new Image();
-        goldLayer.src = '7.png';
+     
         goldLayer.onload = () => {
             ctx.drawImage(goldLayer, 0, 0, canvas.width, canvas.height);
             setupScratchEvents();
